@@ -80,21 +80,3 @@
       box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
       padding: 4px;
     }
-<!-- ตัวอักษรลิงค์ไม่มีเส้นใต้ -->
-        a { 
-            text-decoration:none; 
-             } 
-        a:link { 
-            text-decoration:none; 
-             }
-        a:visited { 
-            text-decoration:none; 
-             }
-        a:hover { 
-            text-decoration:none; 
-             }
-        a:active { 
-            text-decoration:none; 
-             }
-        a { color: inherit; 
-             }

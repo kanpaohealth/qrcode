@@ -3,7 +3,7 @@
         display: flex;
         min-height: 100vh;
         flex-direction: column;
-        background: rgb(200, 220, 224);
+/*         background: rgb(200, 220, 224); */
     }
     .prompt {
       font-family: 'Prompt', sans-serif;

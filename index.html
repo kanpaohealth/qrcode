@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Kanit|Niramit|Pattaya|Prompt|Sarabun|Sriracha|Questrial|Mitr|Mali|Itim|Athiti|Thasadith' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>QR Code by Wansawang</title>
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <div class="bgimg-1">
+        <div class="caption">
+      <div align="center">
+      <br><br>
+      <img src="images/kanpao-logo-160px.png" style="width:100%"><br>
+      <!-- ปิด Menu bar -->
+              <p><p>
+              <div class="section no-pad-bot" id="index-banner">
+                  <div class="container">
+              <h3 class="flow-text" style="text-align:center;">สร้าง QR Code ไม่วันหมดอายุ</h3>
+                      <h4 class="flow-text" style="text-align:center;">[ กองสาธารณสุข องค์การบริหารส่วนจังหวัดกาญจนบุรี ]</h4>
+                      <p>
+                  </div>
+              </div>
 
 <div class="form">
   <h1>QR Code Generator</h1>
@@ -21,26 +42,14 @@
         <div id="qrcode" class="qrcode"></div>
     </div>
 
-    <button type="button" onclick="generateQRCode()">Generate QR Code</button>
+    <button type="button" onclick="generateQRCode()">สร้าง QR Code</button>
     
 </form>
 
-
-
-  <script type="text/javascript">
-    function generateQRCode() {
-      let website = document.getElementById("website").value;
-      if (website) {
-        let qrcodeContainer = document.getElementById("qrcode");
-        qrcodeContainer.innerHTML = "";
-        new QRCode(qrcodeContainer, website);
- 
-        document.getElementById("qrcode-container").style.display = "block";
-      } else {
-        alert("Please enter a valid URL");
-      }
-    }
-  </script>
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
 </div>
 </body>
 </html>

@@ -6,11 +6,11 @@
       /* background: rgb(200, 220, 224); */
     }
     .prompt {
-      font-family: 'Prompt', sans-serif;
+      font-family: 'Noto Sans Thai', sans-serif;
       color: #252A34;
     }
     h1,h2,h3,h4,h5,h6 {
-      font-family: 'Prompt', sans-serif;
+      font-family: 'Noto Sans Thai', sans-serif;
     }
     .form {
       font-family: Helvetica, sans-serif;
@@ -21,7 +21,7 @@
       background: #EAEAEA;
     }
     .form h1 {
-      background: #FF2E63;
+      background: #0070CC;
       padding: 20px 0;
       font-weight: 300;
       text-align: center;
@@ -54,7 +54,7 @@
       width: 180px;
       margin: 0 auto;
       padding: 3%;
-      background: #0853b6;
+      background: #C23F63;
       border: none;  
       border-radius: 3px;
       font-size: 17px;
